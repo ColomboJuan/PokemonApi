@@ -1,0 +1,20 @@
+.card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 10px 50px -15px rgb(72, 56, 73);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    border-color: rgb(150, 146, 141);
+    border-style: double;
+    background-color: rgb(211, 206, 199);
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
