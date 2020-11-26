@@ -2,7 +2,7 @@ var pokemonImg = document.querySelector('.pokemonImg')
 var pokemonName = document.querySelector('.pokemonName');
 
 const urlParams = new URLSearchParams(window.location.search);
-const myParam = urlParams.get('name');
+const myParam = urlParams.get('name').toLowerCase();
 
 async function getPokemonData(myParam) {
     const data = await fetch(`https://pokeapi.co/api/v2/pokemon/${myParam}`)
